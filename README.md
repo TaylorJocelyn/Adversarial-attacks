@@ -1,6 +1,6 @@
 # Adversarial-attacks
 
-本仓库为个人学习是的论文简要笔记，仅用于个人学习。
+本仓库为个人学习时的论文简要笔记，仅用于个人学习。
 
 ### 1. 《**Intriguing properties of neural networks**》
 
