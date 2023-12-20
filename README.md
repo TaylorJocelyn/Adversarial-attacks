@@ -2,9 +2,10 @@
 
 本仓库为个人学习时的论文简要笔记，仅用于个人学习。
 
-### 1. [《**Intriguing properties of neural networks**》](https://arxiv.org/abs/1312.6199)
 
-​	提出**<font style="color:red">对抗样本</font>**概念和**<font style="color:red">Box-constrained L-BFGS</font>**方法，通过最小化回归误差训练得到对抗扰动。
+## 1. 《**Intriguing properties of neural networks**》[[ICLR2014]](https://arxiv.org/abs/1312.6199)
+
+​	提出<font style="color:red">**对抗样本**</font>概念和<font style="color:red">**Box-constrained L-BFGS**</font>方法，通过最小化回归误差训练得到对抗扰动。
 
 ​	1）高维的神经元个体和其线性组合没有区别。
 
@@ -12,11 +13,11 @@
 
 ​	3）对抗样本在不用模型间具有迁移性。
 
-<div style="border-bottom: 1px solid #ddd;"></div>
 
-### 2. [《EXPLAINING AND HARNESSING》](https://arxiv.org/abs/1412.6572)
 
-​	提出了**<font style="color:red">Fast Gradient Sign Method (FGSM)</font>**方法，第一次将**<font style="color:red">对抗扰动写入损失表达式</font>**进行对抗训练，提升了模型鲁棒性。
+## 2. 《EXPLAINING AND HARNESSING》[[ICLR2015]](https://arxiv.org/abs/1412.6572)
+
+​	提出了<font style="color:red">**Fast Gradient Sign Method (FGSM)**</font>方法，第一次将<font style="color:red">**对抗扰动写入损失表达式**</font>进行对抗训练，提升了模型鲁棒性。
 
 ​	1）对抗样本是高维空间线性点积的产物，而不非线性导致的。
 
